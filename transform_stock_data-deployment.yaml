@@ -1,0 +1,40 @@
+###
+### A complete description of a Prefect Deployment for flow 'Transform Stock Data'
+###
+name: tranform_stock_data_deployment
+description: null
+version: 7f45aba2754810c34ddcdc8c5c48ef9a
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+work_pool_name: null
+tags: []
+parameters: {}
+schedule: null
+is_schedule_active: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: Transform Stock Data
+manifest_path: null
+storage: null
+path: /Users/josephcorrado/projects/prefect_certification_course
+entrypoint: module_103_lab.py:transform_stock_data
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
+timestamp: '2023-02-15T19:17:58.807118+00:00'
